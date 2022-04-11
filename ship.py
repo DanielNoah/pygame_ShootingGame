@@ -1,9 +1,11 @@
 import pygame
+from pygame.sprite import Sprite
 
-class Ship():
+class Ship(Sprite): # Ship 클래스에 Sprite 클래스를 상속함.
 
     def __init__(self, invasion_settings, screen):
         """Initialize the ship and set its starting position."""
+        super(Ship, self).__init__() # 상속 상위클래스(Sprite)의 속성을 호출하는 super() 메서드를 통해 __init__() 자바로 치면 생성자 호출. .
         self.screen = screen
         self.invasion_settings = invasion_settings
 

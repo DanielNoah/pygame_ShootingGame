@@ -25,7 +25,7 @@ def run_game():
     stats = GameStats(invasion_settings)
     sb = Scoreboard(invasion_settings, screen, stats)
 
-    # Make a ship. 인스턴스 객체 생성(로컬 메모리가 아닌 외부 공유하기 위한 인스턴스 메모리에 저장)
+    # Make a ship. 인스턴스 객체 생성(로컬 메모리(스택)가 아닌 외부 공유하기 위한 글로벌 메모리(힙)에 저장)
     ship = Ship(invasion_settings, screen)
 
     # Make a Group to store bullets in

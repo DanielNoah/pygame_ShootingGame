@@ -42,7 +42,7 @@ class Settings():
         # Scoring
         self.younggi_points = 50
 
-    # 기본 세팅 게임 스피드에서 비행기, 미사일, 영기(fleet) 스피드를 기존 수치에서 기하급수적(multyply)으로 증가시킴
+    # 기본 세팅 게임 스피드에서 비행기, 미사일, 영기(fleet) 스피드를 기존 수치에서 배로(multiply) 증가시킴
     def increase_speed(self):
         """Increase speed settings."""
         self.ship_speed_factor *= self.speedup_scale
@@ -53,4 +53,4 @@ class Settings():
         # self.younggi_points = int(self.younggi_points * self.score_scale)
         # print(self.younggi_points)
 
-        # 게임의 속도가 증가함 때(한 번의 스테이지를 클리어할 때) 또한 각 점수 기록폭 도 증가시킨다(기본점수 50에서 1.5씩 곱하여 증가)
+        # 게임의 속도가 증가함 때(한 번의 스테이지를 클리어할 때) 또한 각 점수의 기록폭도 증가시킨다(기본점수 50에서 1.5씩 곱하여 증가)

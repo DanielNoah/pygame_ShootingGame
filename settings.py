@@ -20,7 +20,7 @@ class Settings():
         self.bullets_allowed = 3
 
         # Younggi settings
-        self.fleet_drop_speed = 10
+        self.fleet_drop_speed = 1
 
         # How quickly the game speeds up
         self.speedup_scale = 1.1
@@ -34,7 +34,7 @@ class Settings():
         self.ship_speed_factor = 1.5
         self.bullet_speed_factor = 3
         self.bullet_width = 10
-        self.younggi_speed_factor = 1
+        self.younggi_speed_factor = .2
 
         # fleet_direction of 1 represents right; -1 represts left.
         self.fleet_direction = 1

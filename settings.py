@@ -53,4 +53,4 @@ class Settings():
         # self.younggi_points = int(self.younggi_points * self.score_scale)
         # print(self.younggi_points)
 
-        # 게임의 속도가 증가함 때(한 번의 스테이지를 클리어할 때) 또한 각 점수의 기록폭도 증가시킨다(기본점수 50에서 1.5씩 곱하여 증가)
+        # 게임의 속도가 증가 때(한 번의 스테이지를 클리어할 때) 또한 각 점수의 기록폭도 증가시킨다(기본점수 50에서 1.5씩 곱하여 증가)
